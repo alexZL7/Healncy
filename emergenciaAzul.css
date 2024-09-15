@@ -1,0 +1,139 @@
+/* Header */
+header {
+    background-image: url(../Img/emergenciaAzulHeader.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5%;
+}
+
+.title-header {
+    width: 40%;
+    font-size: 72px;
+}
+.title-header strong {
+    color: #0031B8;
+}
+.text-header {
+    width: 30%;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+.header-login {
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+    padding: 0.75rem 2.25rem;
+    background-color: #5E60FA;
+    border-radius: 8px;
+}
+.degradado {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30vh;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #00000000 0%, #010718FF 75%);
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descripccion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+.descripccion h2 {
+    font-size: 40px;
+    margin: 2rem;
+}
+.descripccion p {
+    font-size: 20px;
+    color: #B8CAFF;
+    font-weight: 300;
+}
+
+.emergencias {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+.emergencias h2 {
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(45deg, #2E57CA 0%, #1E409D 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.paneles {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(5, 300px);
+    gap: 2rem;
+    place-content: center;
+    padding-top: 5%;
+}
+.panel {
+    background-color: #122969;
+    border-radius: 12px;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: ease-in-out 0.1s;
+}
+
+.panel:hover {
+    transform: scale(1.05);
+    outline: 4px solid #0044ff;
+}
+.title-panel {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-panel {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: 1rem 0;
+}
+.button-panel {
+    padding: 0.5rem 1.5rem;
+    background-color: #071847;
+    border-radius: 8px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.panel div {
+    display: flex;
+    justify-content: center;
+}
+
+.info-adicional {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+.info-adicional p {
+    color: #B8CAFF;
+    font-size: 20px;
+    font-weight: 300;
+
+}

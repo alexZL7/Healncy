@@ -1,0 +1,99 @@
+/* Header */
+header {
+    background-image: url(../Img/wilsonhd.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5%;
+}
+
+.title-header {
+    width: 40vw;
+    height: 32vh;
+    font-size: 48px;
+}
+.title-header strong {
+    color: #1e86cc;
+}
+.degradado {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 35vh;
+    z-index: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #00000000 0%, #050d1bff 75%);
+}
+
+/* Main */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.descripccion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+.descripccion p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.paneles {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 50vh 50vh 50vh 50vh;
+    gap: 2.5rem 2rem;
+    place-content: center;
+    padding: 5% 0;
+}
+.panel {
+    outline: solid 4px #2f64a1;
+    border-radius: 12px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.panel-container {
+    display: flex;
+}
+.panel-container-img, .panel-container-text  {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.panel-container-img img {
+    width: 80%;
+    border-radius: 8px;
+    filter: brightness(.85);
+}
+.title-panel {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-panel {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+.button-panel-container {
+    text-align: center;
+}
+.button-panel {
+    text-decoration: none;
+    background-color: #2f64a1;
+    padding: 0.5rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 300;
+}

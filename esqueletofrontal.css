@@ -1,0 +1,209 @@
+
+.blur {
+    position: absolute;
+    box-shadow: 0 0 500px 50px #ff3205;
+    z-index: -1;
+}
+    /*Esqueleto*/
+.esqu {
+    position: absolute; 
+    top: 45rem; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta la imagen al centro exacto */
+    max-width: 28%; /* La imagen no superará el ancho del contenedor */
+    height: auto; 
+}
+.T456 {
+    position: relative;
+    top: 8rem;
+    left: 45vh;
+    font-size: 30px;
+
+}
+
+/*Circulos
+
+
+.circulo{
+    width: 10px; /* Ancho del círculo *
+    height: 10px; /* Alto del círculo (debe ser igual al ancho para un círculo perfecto) 
+    border-radius: 50px; /* Hace que el elemento sea un círculo *
+    display: flex; /* Opcional: para centrar contenido si lo necesitas *
+    align-items: center; /* Opcional: centra verticalmente el contenido 
+    justify-content: center; /* Opcional: centra horizontalmente el contenido 
+    font-size: 9px; /* Tamaño del texto (si decides agregar texto dentro del círculo) 
+}
+*/
+/*Flechas*/
+.Flechas1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 24rem;
+    left: 40rem;
+    transform: rotate(300deg);
+}
+.Flechas2 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 33rem;
+    left: 3rem;
+    transform: rotate(150deg);
+}
+.Flechas3 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 45rem;
+    left: 17rem;
+    transform: rotate(300deg);
+}
+.Flechas4 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 60rem;
+    left: -12rem;
+    transform: rotate(120deg);
+}
+/*Manos
+.cir1{
+    position: relative;
+    top: 27rem;
+    left: 50rem;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(250, 250, 250);
+    transform: rotate(-45deg);
+    z-index: 5;
+}
+.cir2{
+    position: relative;
+    top: 43rem;
+    left: 26.1rem;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-40deg);
+    z-index: 3;  
+}
+.cir3{
+    position: relative;
+    top: 47rem;
+    left: 47rem;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(30deg);
+    z-index: 5;   
+}
+.cir4{
+    position: relative;
+    top: 58rem;
+    left: 30rem;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(20deg);
+    z-index: 5;  
+}
+*/
+
+/*TEXTO & LINK*/
+
+.a1 {
+    position: relative;
+    top: 20rem;
+    left: 62rem;
+    text-decoration: none;
+    transform: rotate(0deg);
+    font-size: 36px;
+}
+.a2 {
+    position: relative;
+    top: 20rem;
+    left: 14rem;
+    text-decoration: none;
+    transform: rotate(0deg);
+    font-size: 36px;
+}
+
+.a3 {
+    position: relative;
+    top: 33rem;
+    left: 57rem;
+    text-decoration: none;
+    transform: rotate(0deg);
+    font-size: 36px;
+}
+
+.a1:hover {
+    color: red;
+}
+.a2:hover {
+    color: red;
+}
+.a3:hover {
+    color: red;
+}
+.a4:hover {
+    color: red;
+}
+
+.a4 {
+    position: relative;
+    top: 44rem;
+    left: 18rem;
+    text-decoration: none;
+    transform: rotate(0deg);
+    font-size: 36px;
+}
+
+
+footer {
+    position: relative;
+    top: 57rem;
+}
+
+/*Piernas
+
+.cir5{
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    top: 23rem; 
+    left: 41.8rem; 
+    max-width: 12.7%; 
+    height: auto;  
+}
+.cir6{
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    top: 23rem; 
+    left: 38rem;
+    max-width: 12.7%;
+    height: auto;  
+}
+.cir7{
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    top: 30rem; 
+    left: 38.5rem;
+    max-width: 12.7%;
+    height: auto;  
+}
+.cir8{
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    top: 30rem;
+    left: 41.5rem; 
+    max-width: 12.7%; 
+    height: auto;  
+}
+
+*/
+

@@ -1,0 +1,99 @@
+header {
+    height: calc(50vh + 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Img/heal.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.maniobra{
+    background-color: white;
+    background-image:linear-gradient(180deg,rgb(27, 172, 148),rgb(131, 85, 205)) ;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text ;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+header h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    color: #6b9ed8;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p, p a {
+    color: #c4d3e6;
+}
+
+div div div img {
+    border-radius: 8px;
+    filter: brightness(.8);
+}
+
+.descripccion {
+    text-align: center;
+    padding: 3% 5% 5%;
+}
+
+.evalua {
+    padding: 0 5%;
+    text-align: center;
+}
+
+.posicionate {
+    padding: 5%;
+}
+.posicionate-container {
+    display: flex;
+}
+.posicionate-text, .posicionate-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.posicionate-text {
+    text-align: right;
+}
+.posicionate-img {
+    justify-content: center;
+}
+.posicionate-img img {
+    width: 60%;
+    border-radius: 8px;
+    transform: scaleX(-1);
+}
+
+.compresiones {
+    padding: 1% 5%;
+}
+.compresiones-container {
+    display: flex;
+}
+.compresiones-text, .compresiones-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.compresiones-img {
+    justify-content: center;
+}
+.compresiones-img img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+.adiccional {
+    padding: 5%;
+    text-align: center;
+}

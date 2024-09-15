@@ -1,0 +1,81 @@
+header {
+    height: calc(50vh + 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Img/hemorragiasHeader.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+header h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    color: #6b9ed8;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+p, p a, li {
+    color: #c4d3e6;
+}
+
+div div div img {
+    border-radius: 8px;
+    filter: brightness(.8);
+}
+
+.descripccion {
+    text-align: center;
+    padding: 3% 5% 5%;
+}
+
+.presion {
+    padding: 0 5%;
+}
+.presion-container {
+    display: flex;
+}
+.presion-text, .presion-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.presion-img-container {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}
+.presion-img-container img {
+    width: 75%;
+}
+.presion-img-container .img-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.presion-img-container .img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.torniquete {
+    padding: 5%;
+}
+.torniquete p {
+    text-align: center;
+}
+.torniquete ol li {
+    margin-left: 3rem;
+}
+
+.adiccional {
+    padding:  0 5% 5%;
+    text-align: center;
+}
